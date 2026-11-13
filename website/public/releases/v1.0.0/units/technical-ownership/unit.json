@@ -1,0 +1,10 @@
+{
+  "unitId": "technical-ownership",
+  "sequence": 32,
+  "title": "การเป็นเจ้าของบิตคอยน์ในเชิงเทคนิค",
+  "durationMinutes": 15,
+  "chapter": "Chapter 6: Using Bitcoin Safely",
+  "slideCount": 2,
+  "classPath": "units/technical-ownership/class.html",
+  "guidePath": "units/technical-ownership/guide.html"
+}

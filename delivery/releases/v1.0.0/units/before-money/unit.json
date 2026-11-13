@@ -1,0 +1,10 @@
+{
+  "unitId": "before-money",
+  "sequence": 3,
+  "title": "ก่อนจะมีเงิน",
+  "durationMinutes": 15,
+  "chapter": "Chapter 1: Money",
+  "slideCount": 4,
+  "classPath": "units/before-money/class.html",
+  "guidePath": "units/before-money/guide.html"
+}

@@ -1,0 +1,10 @@
+{
+  "unitId": "bitcoin-etf",
+  "sequence": 44,
+  "title": "Bitcoin ETF",
+  "durationMinutes": 15,
+  "chapter": "Chapter 8: Adoption and Future Role",
+  "slideCount": 2,
+  "classPath": "units/bitcoin-etf/class.html",
+  "guidePath": "units/bitcoin-etf/guide.html"
+}

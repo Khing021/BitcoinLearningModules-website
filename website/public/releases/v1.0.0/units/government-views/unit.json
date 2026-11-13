@@ -1,0 +1,10 @@
+{
+  "unitId": "government-views",
+  "sequence": 42,
+  "title": "มุมมองของรัฐบาลต่อบิตคอยน์",
+  "durationMinutes": 15,
+  "chapter": "Chapter 8: Adoption and Future Role",
+  "slideCount": 3,
+  "classPath": "units/government-views/class.html",
+  "guidePath": "units/government-views/guide.html"
+}

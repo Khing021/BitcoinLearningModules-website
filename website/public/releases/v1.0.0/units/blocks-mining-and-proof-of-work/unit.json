@@ -1,0 +1,10 @@
+{
+  "unitId": "blocks-mining-and-proof-of-work",
+  "sequence": 24,
+  "title": "บล็อก การขุด และ proof of work",
+  "durationMinutes": 15,
+  "chapter": "Chapter 4: Bitcoin System Structure",
+  "slideCount": 5,
+  "classPath": "units/blocks-mining-and-proof-of-work/class.html",
+  "guidePath": "units/blocks-mining-and-proof-of-work/guide.html"
+}

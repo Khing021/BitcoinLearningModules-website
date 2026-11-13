@@ -1,0 +1,174 @@
+
+    <section class="slide" data-slide-type="comparison" data-theme="chapter-4" data-slide-id="c4-u23-s1">
+      <div class="slide-inner">
+        
+        
+        
+      <div class="canvas comparison-layout">
+        <div class="comparison-visual">
+          
+    <div class="image-placeholder image-placeholder-filled">
+      <img class="slide-image" src="assets/c4-u23-s1-transactions-into-block-placeholder.png" alt="ทำให้คำว่า block เข้าใจได้ในฐานะภาชนะของข้อมูลใหม่ ไม่ใช่กล่องเทคนิคที่ลอย ๆ" />
+      <div class="placeholder-metadata" hidden aria-hidden="true">
+        <div class="placeholder-label">image placeholder</div>
+        <div class="placeholder-strong">ทำให้คำว่า block เข้าใจได้ในฐานะภาชนะของข้อมูลใหม่ ไม่ใช่กล่องเทคนิคที่ลอย ๆ</div>
+        <div class="placeholder-copy">ภาพเชิงระบบที่สื่อการไหลจากธุรกรรมหลายรายการ ซึ่งอาจแทนด้วยแผ่นข้อมูลหรือสัญลักษณ์การโอนหลายชิ้น ค่อย ๆ ถูกรวบเข้าหากันเป็นก้อนเดียวที่มีรูปทรงชัดเจนเป็น block ภาพควรเป็นก้อนกลางเดียวและมี safe margin สำหรับ placeholder mode</div>
+      </div>
+    </div>
+        </div>
+        <div class="comparison-copy">
+          
+    
+    <h2 class="headline">บล็อกเชนคือ<br />สายโซ่ของบล็อก</h2>
+    <p class="subheadline">ธุรกรรมการโอนบิตคอยน์จะถูกรวบรวมมาบรรจุในก้อนข้อมูลเรียกว่าบล็อก (block)</p>
+          <div class="body-copy"><p>เมื่อผู้ใช้ทำธุรกรรม ในตอนแรกธุรกรรมจะยังไม่ถูกบรรจุลงในบล็อก เมื่อธุรกรรมถูกบรรจุลงบล็อกจะเรียกว่าได้รับการยืนยัน (confirmation) ซึ่งจะทำให้ธุรกรรมนั้นไม่สามารถถูกแก้ไขเปลี่ยนแปลงได้อีกในทางปฏิบัติ</p></div>
+          <div class="callout-group" data-callout-sizing="match-longest"><div class="callout">แต่ละบล็อกอ้างถึงข้อมูลในบล็อกก่อนหน้า</div>
+<div class="callout">จะแก้ข้อมูลในบล็อก ต้องแก้ทุกบล็อกที่ตามมาหลังจากนั้น</div></div>
+        </div>
+      </div>
+        <div class="slide-footer">
+          <div class="footer-left">Bitcoin Learning Modules</div>
+          <div class="footer-center">Chapter 4 : Bitcoin System Structure | Unit 23: บล็อก การขุด และ proof of work</div>
+          <div class="footer-right">1/5</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-slide-type="image-led" data-theme="chapter-4" data-slide-id="c4-u23-s2">
+      <div class="slide-inner">
+        
+        
+        
+    <div class="canvas image-led-layout">
+      <div class="image-led-copy">
+        
+    
+    <h2 class="headline">นักขุดคือผู้สร้างบล็อกใหม่</h2>
+    
+        <div class="body-copy"><p>นักขุดทำหน้าที่รวบรวมธุรกรรมที่ยังไม่ถูกยึนยัน จัดเรียงลงบล็อก แล้วทำงานสุ่ม-คำนวณเพื่อหาตัวเลขที่ทำให้บล็อกใช้การได้ งานนี้ใช้พลังงานมากและสามารถพิสูจน์ได้ว่ามีการทำงานอยู่เบื้องหลังมากแค่ไหน</p></div>
+        <div class="callout-group callout-group-compact" data-callout-sizing="match-longest"><div class="callout">บล็อกใหม่จะถูกสร้างสำเร็จทุก 10 นาทีโดยเฉลี่ย</div>
+<div class="callout">ถ้าบล็อกถูกกฎโหนดจะยอมรับ ถ้าผิดก็เปลืองไฟฟรี</div>
+<div class="callout">นักขุดที่ทำสำเร็จจะได้รับรางวัลเป็นบิตคอยน์</div>
+<div class="callout">ไม่ใช่การแก้โจทย์ปัญหา แต่คล้ายการสุ่มล็อตเตอรี่</div></div>
+      </div>
+      <div class="image-led-visual">
+        
+    <div class="image-placeholder image-placeholder-filled">
+      <img class="slide-image" src="assets/c4-u23-s2-miner-competition-placeholder.png" alt="ทำให้คำว่าขุดถูกตีความใหม่ว่าเป็นการแข่งขันทางคำนวณเพื่อเสนอ block ใหม่" />
+      <div class="placeholder-metadata" hidden aria-hidden="true">
+        <div class="placeholder-label">image placeholder</div>
+        <div class="placeholder-strong">ทำให้คำว่าขุดถูกตีความใหม่ว่าเป็นการแข่งขันทางคำนวณเพื่อเสนอ block ใหม่</div>
+        <div class="placeholder-copy">ภาพคอมพิวเตอร์หลายฝั่งกำลังแข่งขันกันทำงานคำนวณตามกติกาเดียวกัน แล้วมี block ใหม่เพียงก้อนเดียวถูกดันขึ้นมาเป็น block ล่าสุดของระบบ ควรสื่อการแข่งขันเชิงระบบ ไม่ใช่ภาพคนถือพลั่วหรือเหมืองใต้ดิน องค์ประกอบหลักควรอยู่กึ่งกลางและเผื่อ safe margin สำหรับ placeholder mode</div>
+      </div>
+    </div>
+      </div>
+    </div>
+        <div class="slide-footer">
+          <div class="footer-left">Bitcoin Learning Modules</div>
+          <div class="footer-center">Chapter 4 : Bitcoin System Structure | Unit 23: บล็อก การขุด และ proof of work</div>
+          <div class="footer-right">2/5</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide slide-with-background" data-slide-type="background-full" data-theme="chapter-4" data-slide-id="c4-u23-s5" data-image-usage="full-slide-background" data-layout-variant="center">
+      <div class="slide-inner">
+        
+    <div class="slide-background-media">
+      <img class="slide-background-image" src="assets/c4-u23-s5-proof-of-work-cost-center.png" alt="ทำให้คำว่า proof of work ถูกเข้าใจในฐานะกลไกความปลอดภัย ไม่ใช่แค่คำอธิบายเรื่องพลังงาน" />
+      
+      <div class="placeholder-metadata" hidden aria-hidden="true">
+        <div class="placeholder-label">background image placeholder</div>
+        <div class="placeholder-strong">ทำให้คำว่า proof of work ถูกเข้าใจในฐานะกลไกความปลอดภัย ไม่ใช่แค่คำอธิบายเรื่องพลังงาน</div>
+        <div class="placeholder-copy">ภาพ comparison center-safe ที่ฝั่งหนึ่งเป็นผู้โจมตีหรือความพยายามย้อนแก้ประวัติ ซึ่งต้องแบกต้นทุนมหาศาล ส่วนอีกฝั่งเป็นเครือข่ายที่มีงานสะสมต่อทับกันเป็นชั้น ๆ ทำให้ตามไม่ทัน ควรเว้นกลางสำหรับข้อความ และภาพต้องสื่อว่าความปลอดภัยมาจากต้นทุนจริงที่ต้องจ่าย</div>
+      </div>
+    </div>
+        
+        
+      <div class="canvas background-full-layout background-full-layout-center">
+        <div class="background-full-copy">
+          
+    
+    <h2 class="headline">นี่คือระบบ proof-of-work</h2>
+    <p class="subheadline">ความจริงหนึ่งเดียวของเครือข่าย<br />ถูกกำหนดด้วยการทำงานเชิงคอมพิวเตอร์</p>
+          <div class="body-copy"><p>ใครอยากย้อนกลับไปแก้ข้อมูลในบล็อกเชน จะต้องใช้ต้นทุนจริงทั้งชิปประมวลผล ไฟฟ้า กำลังคน และเวลามหาศาล เพื่อไล่ตามงานที่ทั้งเครือข่ายเคยทำไปแล้ว</p></div>
+          <div class="callout-group" data-callout-sizing="match-longest"><div class="callout">บล็อกยิ่งเก่า ยิ่งแก้ไขยาก</div>
+<div class="callout">แทบเป็นไปไม่ได้ในทางปฏิบัติ</div>
+<div class="callout">ถึงทำได้ ก็ไม่คุ้มค่าในทางเศรษฐศาสตร์</div></div>
+        </div>
+      </div>
+        <div class="slide-footer">
+          <div class="footer-left">Bitcoin Learning Modules</div>
+          <div class="footer-center">Chapter 4 : Bitcoin System Structure | Unit 23: บล็อก การขุด และ proof of work</div>
+          <div class="footer-right">3/5</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-slide-type="comparison" data-theme="chapter-4" data-slide-id="c4-u23-s3">
+      <div class="slide-inner">
+        
+        
+        
+      <div class="canvas comparison-layout">
+        <div class="comparison-visual">
+          
+    <div class="image-placeholder image-placeholder-filled">
+      <img class="slide-image" src="assets/c4-u23-s3-block-reward-two-streams-placeholder.png" alt="ช่วยให้ผู้เรียนจำได้ว่ารางวัลไม่ได้มีแค่เหรียญใหม่ แต่มีค่าธรรมเนียมรวมอยู่ด้วย" />
+      <div class="placeholder-metadata" hidden aria-hidden="true">
+        <div class="placeholder-label">image placeholder</div>
+        <div class="placeholder-strong">ช่วยให้ผู้เรียนจำได้ว่ารางวัลไม่ได้มีแค่เหรียญใหม่ แต่มีค่าธรรมเนียมรวมอยู่ด้วย</div>
+        <div class="placeholder-copy">ภาพกึ่งอินโฟกราฟิกเชิงวัตถุที่มี block ใหม่อยู่ตรงกลาง แล้วรางวัลถูกแยกเป็นสองกระแสอย่างชัดเจน ฝั่งหนึ่งเป็นเหรียญใหม่ที่ระบบปล่อยออกมา อีกฝั่งเป็นค่าธรรมเนียมที่ไหลมาจากธุรกรรมของผู้ใช้ ควรสื่อว่าทั้งสองส่วนมารวมกันเป็นรางวัลก้อนเดียว</div>
+      </div>
+    </div>
+        </div>
+        <div class="comparison-copy">
+          
+    
+    <h2 class="headline"></h2>
+    <p class="subheadline">รางวัลของนักขุด (block reward) มีสองส่วน</p>
+          <div class="body-copy"><p>ส่วนหนึ่งคือเหรียญใหม่ที่นักขุดสร้างให้ตัวเองได้ตามจำนวนที่กฎกำหนดไว้ (block subsidy) และอีกส่วนคือค่าธรรมเนียมธุรกรรม (transaction fee)</p><p>ไม่มีอัตราค่าธรรมเนียมที่ตายตัว แต่นักขุดมักเลือกธุรกรรมที่จ่ายค่าธรรมเนียมสูงใส่บล็อกก่อนเสมอ</p><p>แต่ละบล็อกมีผู้ได้รางวัลเพียงหนึ่งเดียว แต่นักขุดมักรวมตัวแบ่งปันผลประโยชน์กันเพื่อให้มีรายได้สม่ำเสมอ เรียกว่า mining pool</p></div>
+          
+        </div>
+      </div>
+        <div class="slide-footer">
+          <div class="footer-left">Bitcoin Learning Modules</div>
+          <div class="footer-center">Chapter 4 : Bitcoin System Structure | Unit 23: บล็อก การขุด และ proof of work</div>
+          <div class="footer-right">4/5</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide slide-with-background" data-slide-type="background-full" data-theme="chapter-4" data-slide-id="c4-u23-s4" data-image-usage="full-slide-background">
+      <div class="slide-inner">
+        
+    <div class="slide-background-media">
+      <img class="slide-background-image" src="assets/c4-u23-s4-halving-steps-right.png" alt="ทำให้ halving และ supply cap จับต้องได้เป็นภาพจังหวะการลดลง ไม่ใช่แค่ตัวเลขในคำบรรยาย" />
+      
+      <div class="placeholder-metadata" hidden aria-hidden="true">
+        <div class="placeholder-label">background image placeholder</div>
+        <div class="placeholder-strong">ทำให้ halving และ supply cap จับต้องได้เป็นภาพจังหวะการลดลง ไม่ใช่แค่ตัวเลขในคำบรรยาย</div>
+        <div class="placeholder-copy">ภาพแบบ full-slide one-sided background ที่มีลำดับการลดลงของ subsidy เป็นชั้น ๆ หรือขั้นบันไดที่ค่อย ๆ ลดต่ำลงทางฝั่งหนึ่งของสไลด์ ส่วนอีกฝั่งเว้นโล่งสำหรับข้อความ ภาพควรสื่อว่าการปล่อยเหรียญใหม่ค่อย ๆ หดตัวลงอย่างเป็นระบบและพาไปสู่ความขาดแคลนตามกติกา</div>
+      </div>
+    </div>
+        
+        
+      <div class="canvas background-full-layout">
+        <div class="background-full-copy">
+          
+    
+    <h2 class="headline">เหรียญใหม่น้อยลงเรื่อยๆ</h2>
+    <p class="subheadline">เหรียญใหม่ที่ถูกสร้างในแต่ละบล็อกลดลงเรื่อยๆ และในที่สุดจะไม่มีเหรียญใหม่เกิดขึ้นอีก</p>
+          <div class="body-copy"><p>block subsidy ลดลงครึ่งหนึ่งทุกๆ 210,000 บล็อก (ประมาณ 4 ปี) เริ่มจาก 50 BTC ต่อบล็อก เหลือ 25... เหลือ 12.5... เหลือ 6.25... จนกระทั่งหมดไปในที่สุด ในวันนั้นเมื่อนับทุกเหรียญที่เคยถูกสร้างขึ้นจะมีจำนวนรวมไม่เกิน 21 ล้านเหรียญ</p></div>
+          <div class="callout-group" data-callout-sizing="match-longest"><div class="callout">ปรากฎการณ์นี้เรียกว่า halving</div>
+<div class="callout">เป็นที่มาของวัฎจักร 4 ปีในบิตคอยน์</div>
+<div class="callout">ถูกผลิตเพิ่มเรื่อยๆ แต่จะไม่เกิน 21 ล้าน</div></div>
+        </div>
+      </div>
+        <div class="slide-footer">
+          <div class="footer-left">Bitcoin Learning Modules</div>
+          <div class="footer-center">Chapter 4 : Bitcoin System Structure | Unit 23: บล็อก การขุด และ proof of work</div>
+          <div class="footer-right">5/5</div>
+        </div>
+      </div>
+    </section>

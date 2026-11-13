@@ -1,0 +1,10 @@
+{
+  "unitId": "hardware-wallet",
+  "sequence": 34,
+  "title": "hardware wallet",
+  "durationMinutes": 15,
+  "chapter": "Chapter 6: Using Bitcoin Safely",
+  "slideCount": 2,
+  "classPath": "units/hardware-wallet/class.html",
+  "guidePath": "units/hardware-wallet/guide.html"
+}

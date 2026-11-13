@@ -1,0 +1,10 @@
+{
+  "unitId": "chapter-close",
+  "sequence": 48,
+  "title": "สรุปปิดท้ายบท",
+  "durationMinutes": 15,
+  "chapter": "Chapter 8: Adoption and Future Role",
+  "slideCount": 1,
+  "classPath": "units/chapter-close/class.html",
+  "guidePath": "units/chapter-close/guide.html"
+}

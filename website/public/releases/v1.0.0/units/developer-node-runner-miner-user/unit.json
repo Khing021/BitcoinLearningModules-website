@@ -1,0 +1,10 @@
+{
+  "unitId": "developer-node-runner-miner-user",
+  "sequence": 25,
+  "title": "developer, node runner, miner, user",
+  "durationMinutes": 15,
+  "chapter": "Chapter 4: Bitcoin System Structure",
+  "slideCount": 2,
+  "classPath": "units/developer-node-runner-miner-user/class.html",
+  "guidePath": "units/developer-node-runner-miner-user/guide.html"
+}

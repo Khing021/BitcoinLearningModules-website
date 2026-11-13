@@ -1,0 +1,10 @@
+{
+  "unitId": "bitcoin-network-and-node",
+  "sequence": 23,
+  "title": "เครือข่ายบิตคอยน์และ node",
+  "durationMinutes": 15,
+  "chapter": "Chapter 4: Bitcoin System Structure",
+  "slideCount": 4,
+  "classPath": "units/bitcoin-network-and-node/class.html",
+  "guidePath": "units/bitcoin-network-and-node/guide.html"
+}

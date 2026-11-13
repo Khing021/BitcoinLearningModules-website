@@ -1,0 +1,10 @@
+{
+  "unitId": "receiving-bitcoin",
+  "sequence": 35,
+  "title": "การรับบิตคอยน์",
+  "durationMinutes": 15,
+  "chapter": "Chapter 6: Using Bitcoin Safely",
+  "slideCount": 2,
+  "classPath": "units/receiving-bitcoin/class.html",
+  "guidePath": "units/receiving-bitcoin/guide.html"
+}

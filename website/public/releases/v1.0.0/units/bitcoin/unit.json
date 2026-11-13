@@ -1,0 +1,10 @@
+{
+  "unitId": "bitcoin",
+  "sequence": 20,
+  "title": "บิตคอยน์",
+  "durationMinutes": 15,
+  "chapter": "Chapter 3: Bitcoin",
+  "slideCount": 2,
+  "classPath": "units/bitcoin/class.html",
+  "guidePath": "units/bitcoin/guide.html"
+}

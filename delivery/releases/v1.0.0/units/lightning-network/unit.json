@@ -1,0 +1,10 @@
+{
+  "unitId": "lightning-network",
+  "sequence": 41,
+  "title": "Lightning Network",
+  "durationMinutes": 15,
+  "chapter": "Chapter 7: Technology and Development",
+  "slideCount": 4,
+  "classPath": "units/lightning-network/class.html",
+  "guidePath": "units/lightning-network/guide.html"
+}

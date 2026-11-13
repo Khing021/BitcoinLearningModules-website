@@ -1,0 +1,10 @@
+{
+  "unitId": "currency-emergence",
+  "sequence": 6,
+  "title": "การเกิดขึ้นของสกุลเงิน (currency)",
+  "durationMinutes": 15,
+  "chapter": "Chapter 2: Fiat Money",
+  "slideCount": 4,
+  "classPath": "units/currency-emergence/class.html",
+  "guidePath": "units/currency-emergence/guide.html"
+}

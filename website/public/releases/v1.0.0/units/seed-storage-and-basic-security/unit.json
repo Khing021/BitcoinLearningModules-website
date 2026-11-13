@@ -1,0 +1,10 @@
+{
+  "unitId": "seed-storage-and-basic-security",
+  "sequence": 37,
+  "title": "การเก็บรักษา seed และความปลอดภัยพื้นฐาน",
+  "durationMinutes": 15,
+  "chapter": "Chapter 6: Using Bitcoin Safely",
+  "slideCount": 2,
+  "classPath": "units/seed-storage-and-basic-security/class.html",
+  "guidePath": "units/seed-storage-and-basic-security/guide.html"
+}

@@ -1,0 +1,10 @@
+{
+  "unitId": "bitcoin-treasury-company",
+  "sequence": 45,
+  "title": "Bitcoin Treasury Company",
+  "durationMinutes": 15,
+  "chapter": "Chapter 8: Adoption and Future Role",
+  "slideCount": 2,
+  "classPath": "units/bitcoin-treasury-company/class.html",
+  "guidePath": "units/bitcoin-treasury-company/guide.html"
+}

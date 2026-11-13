@@ -1,0 +1,10 @@
+{
+  "unitId": "what-is-money",
+  "sequence": 2,
+  "title": "เงินคืออะไร: ชวนคิด ตั้งคำถาม",
+  "durationMinutes": 15,
+  "chapter": "Chapter 1: Money",
+  "slideCount": 3,
+  "classPath": "units/what-is-money/class.html",
+  "guidePath": "units/what-is-money/guide.html"
+}

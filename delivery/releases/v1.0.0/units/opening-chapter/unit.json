@@ -1,0 +1,10 @@
+{
+  "unitId": "opening-chapter",
+  "sequence": 1,
+  "title": "Opening Chapter",
+  "durationMinutes": 15,
+  "chapter": "Chapter 1: Money",
+  "slideCount": 1,
+  "classPath": "units/opening-chapter/class.html",
+  "guidePath": "units/opening-chapter/guide.html"
+}

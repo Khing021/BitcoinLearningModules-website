@@ -1,0 +1,10 @@
+{
+  "unitId": "pre-bitcoin-experiments",
+  "sequence": 19,
+  "title": "การทดลองก่อนหน้าบิตคอยน์",
+  "durationMinutes": 15,
+  "chapter": "Chapter 3: Bitcoin",
+  "slideCount": 3,
+  "classPath": "units/pre-bitcoin-experiments/class.html",
+  "guidePath": "units/pre-bitcoin-experiments/guide.html"
+}

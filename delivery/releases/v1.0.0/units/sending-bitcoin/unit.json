@@ -1,0 +1,10 @@
+{
+  "unitId": "sending-bitcoin",
+  "sequence": 36,
+  "title": "การส่งบิตคอยน์",
+  "durationMinutes": 15,
+  "chapter": "Chapter 6: Using Bitcoin Safely",
+  "slideCount": 2,
+  "classPath": "units/sending-bitcoin/class.html",
+  "guidePath": "units/sending-bitcoin/guide.html"
+}
