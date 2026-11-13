@@ -51,11 +51,3 @@ pnpm build
 
 เนื้อหาและสื่อการสอนทั้งหมดจัดทำขึ้นเพื่อ **วัตถุประสงค์ทางการศึกษาและการเรียนรู้เท่านั้น** (Strictly for educational purposes) **ไม่ใช่และต้องไม่ถือเป็นคำแนะนำทางการเงิน การลงทุน หรือการชักชวนให้ซื้อขายสินทรัพย์ใดๆ ทั้งสิ้น** (Not financial advice)
 
----
-
-## สัญญาอนุญาตและลิขสิทธิ์ (License & Attribution)
-
-- **Code & Platform:** MIT License
-- **Educational Content:** Planned under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) — *อยู่ระหว่างการตรวจสอบด้านกฎหมาย (Pending Legal Review)*
-- ดูรายละเอียดเพิ่มเติมได้ที่ [`NOTICE.md`](./NOTICE.md) และ [`TRADEMARKS.md`](./TRADEMARKS.md)
-
