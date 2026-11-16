@@ -5,7 +5,7 @@ export type ZipProgressCallback = (current: number, total: number, status: strin
 
 function buildOfflinePlayerHtml(deck: ComposedDeck, _releaseId: string): string {
   // Clean headHtml and tailHtml: remove <base> tag and ensure relative asset loading
-  let cleanHead = (deck.headHtml || '<!DOCTYPE html>\n<html>\n<head></head>\n<body class="class-deck-preview">\n<div class="shell">\n').replace(/<base href="[^"]*">\n?/, '');
+  let cleanHead = (deck.headHtml || '<!DOCTYPE html>\n<html lang="th">\n<head></head>\n<body class="class-deck-preview">\n<div class="shell">\n').replace(/<base href="[^"]*">\n?/, '');
   
   // Guarantee body tag has is-player-mode class
   cleanHead = cleanHead.replace(/<body class="([^"]*)"/, (_match, classList) => {
