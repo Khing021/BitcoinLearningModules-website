@@ -82,4 +82,19 @@ describe('App UI', () => {
     const checkbox = (await screen.findByRole('checkbox', { name: /Unit 1/i })) as HTMLInputElement;
     expect(checkbox.checked).toBe(true);
   });
+
+  it('renders duration estimation tooltip on Builder page', async () => {
+    vi.mocked(releaseLib.loadRelease).mockResolvedValue(mockReleaseData);
+    render(
+      <MemoryRouter initialEntries={['/builder']}>
+        <App />
+      </MemoryRouter>
+    );
+
+    const tooltipTrigger = await screen.findByRole('button', { name: /คำอธิบายเวลาที่แสดง/i });
+    expect(tooltipTrigger).toBeTruthy();
+
+    const tooltipText = await screen.findByText(/เวลาที่แสดงเป็นเพียงการประมาณ ผู้สอนแต่ละคนอาจใช้เวลาไม่เท่ากัน/i);
+    expect(tooltipText).toBeTruthy();
+  });
 });

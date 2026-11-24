@@ -33,4 +33,22 @@ describe('composer', () => {
     expect(result.assets).toContain('units/u01/assets/image1.png');
     // It should handle relative resolution based on the fragment path
   });
+
+  it('includes data-default-duration in body tag for guide preview', async () => {
+    global.fetch = vi.fn().mockImplementation(async (url) => {
+      if (url.endsWith('units/u01/guide.html')) {
+        return { ok: true, text: async () => '<section class="slide"><div class="slide-chip">Slide 1</div></section>' };
+      }
+      return { ok: false, statusText: 'Not Found' };
+    });
+
+    const releaseWithDuration: Release = {
+      ...mockRelease,
+      info: { ...mockRelease.info, defaultSlideDurationMinutes: 3 }
+    };
+
+    const result = await composeDeck(releaseWithDuration, ['u01'], 'guide', '/base/');
+    expect(result.headHtml).toContain('data-default-duration="3"');
+    expect(result.html).toContain('runtime/guide.css');
+  });
 });

@@ -3,231 +3,335 @@
     "unitId": "opening-chapter",
     "sequence": 1,
     "title": "Opening Chapter",
-    "durationMinutes": 15,
+    "durationMinutes": 3,
     "chapter": "Chapter 1: Money",
     "slideCount": 1,
     "classPath": "units/opening-chapter/class.html",
-    "guidePath": "units/opening-chapter/guide.html"
+    "guidePath": "units/opening-chapter/guide.html",
+    "slideDurations": [
+      3
+    ]
   },
   {
     "unitId": "what-is-money",
     "sequence": 2,
     "title": "เงินคืออะไร: ชวนคิด ตั้งคำถาม",
-    "durationMinutes": 15,
+    "durationMinutes": 9,
     "chapter": "Chapter 1: Money",
     "slideCount": 3,
     "classPath": "units/what-is-money/class.html",
-    "guidePath": "units/what-is-money/guide.html"
+    "guidePath": "units/what-is-money/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "before-money",
     "sequence": 3,
     "title": "ก่อนจะมีเงิน",
-    "durationMinutes": 15,
+    "durationMinutes": 12,
     "chapter": "Chapter 1: Money",
     "slideCount": 4,
     "classPath": "units/before-money/class.html",
-    "guidePath": "units/before-money/guide.html"
+    "guidePath": "units/before-money/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "good-money-properties",
     "sequence": 4,
     "title": "คุณสมบัติของเงินที่ดี",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 1: Money",
     "slideCount": 2,
     "classPath": "units/good-money-properties/class.html",
-    "guidePath": "units/good-money-properties/guide.html"
+    "guidePath": "units/good-money-properties/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "better-money-emerges",
     "sequence": 5,
     "title": "มนุษย์แสวงหาเงินที่ดีที่สุดอยู่เสมอ",
-    "durationMinutes": 15,
+    "durationMinutes": 9,
     "chapter": "Chapter 1: Money",
     "slideCount": 3,
     "classPath": "units/better-money-emerges/class.html",
-    "guidePath": "units/better-money-emerges/guide.html"
+    "guidePath": "units/better-money-emerges/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "currency-emergence",
     "sequence": 6,
     "title": "การเกิดขึ้นของสกุลเงิน (currency)",
-    "durationMinutes": 15,
+    "durationMinutes": 12,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 4,
     "classPath": "units/currency-emergence/class.html",
-    "guidePath": "units/currency-emergence/guide.html"
+    "guidePath": "units/currency-emergence/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "bimetallic-standard",
     "sequence": 7,
     "title": "ระบบมาตรฐานโลหะคู่ (bimetallic standard)",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/bimetallic-standard/class.html",
-    "guidePath": "units/bimetallic-standard/guide.html"
+    "guidePath": "units/bimetallic-standard/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-7",
     "sequence": 8,
     "title": "ตั๋วแลกทอง",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/unit-7/class.html",
-    "guidePath": "units/unit-7/guide.html"
+    "guidePath": "units/unit-7/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-8",
     "sequence": 9,
     "title": "กำเนิดธนาคารกลาง",
-    "durationMinutes": 15,
+    "durationMinutes": 12,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 4,
     "classPath": "units/unit-8/class.html",
-    "guidePath": "units/unit-8/guide.html"
+    "guidePath": "units/unit-8/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-9",
     "sequence": 10,
     "title": "ระบบธนาคารกลางสหรัฐฯ",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/unit-9/class.html",
-    "guidePath": "units/unit-9/guide.html"
+    "guidePath": "units/unit-9/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "world-war-one-turning-point",
     "sequence": 11,
     "title": "จุดเปลี่ยนหลังสงครามโลกครั้งที่ 1",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/world-war-one-turning-point/class.html",
-    "guidePath": "units/world-war-one-turning-point/guide.html"
+    "guidePath": "units/world-war-one-turning-point/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-11",
     "sequence": 12,
     "title": "การยึดทองคำ",
-    "durationMinutes": 15,
+    "durationMinutes": 3,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 1,
     "classPath": "units/unit-11/class.html",
-    "guidePath": "units/unit-11/guide.html"
+    "guidePath": "units/unit-11/guide.html",
+    "slideDurations": [
+      3
+    ]
   },
   {
     "unitId": "unit-12",
     "sequence": 13,
     "title": "ระบบเบรตตันวูดส์",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/unit-12/class.html",
-    "guidePath": "units/unit-12/guide.html"
+    "guidePath": "units/unit-12/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-13",
     "sequence": 14,
     "title": "Nixon Shock",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/unit-13/class.html",
-    "guidePath": "units/unit-13/guide.html"
+    "guidePath": "units/unit-13/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-14",
     "sequence": 15,
     "title": "ระบบเฟียต",
-    "durationMinutes": 15,
+    "durationMinutes": 9,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 3,
     "classPath": "units/unit-14/class.html",
-    "guidePath": "units/unit-14/guide.html"
+    "guidePath": "units/unit-14/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-15",
     "sequence": 16,
     "title": "การพึ่งพาตัวกลาง",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/unit-15/class.html",
-    "guidePath": "units/unit-15/guide.html"
+    "guidePath": "units/unit-15/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "unit-16",
     "sequence": 17,
     "title": "CBDC",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 2: Fiat Money",
     "slideCount": 2,
     "classPath": "units/unit-16/class.html",
-    "guidePath": "units/unit-16/guide.html"
+    "guidePath": "units/unit-16/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "decentralized-digital-currency",
     "sequence": 18,
     "title": "สกุลเงินดิจิทัลไร้ศูนย์กลาง",
-    "durationMinutes": 15,
+    "durationMinutes": 12,
     "chapter": "Chapter 3: Bitcoin",
     "slideCount": 4,
     "classPath": "units/decentralized-digital-currency/class.html",
-    "guidePath": "units/decentralized-digital-currency/guide.html"
+    "guidePath": "units/decentralized-digital-currency/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "pre-bitcoin-experiments",
     "sequence": 19,
     "title": "การทดลองก่อนหน้าบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 9,
     "chapter": "Chapter 3: Bitcoin",
     "slideCount": 3,
     "classPath": "units/pre-bitcoin-experiments/class.html",
-    "guidePath": "units/pre-bitcoin-experiments/guide.html"
+    "guidePath": "units/pre-bitcoin-experiments/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "bitcoin",
     "sequence": 20,
     "title": "บิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 3: Bitcoin",
     "slideCount": 2,
     "classPath": "units/bitcoin/class.html",
-    "guidePath": "units/bitcoin/guide.html"
+    "guidePath": "units/bitcoin/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "public-perception-of-bitcoin",
     "sequence": 21,
     "title": "การรับรู้ของผู้คนที่มีต่อบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 3: Bitcoin",
     "slideCount": 2,
     "classPath": "units/public-perception-of-bitcoin/class.html",
-    "guidePath": "units/public-perception-of-bitcoin/guide.html"
+    "guidePath": "units/public-perception-of-bitcoin/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "other-crypto-and-why-not-bitcoin",
     "sequence": 22,
     "title": "การเกิดขึ้นของคริปโทเหรียญอื่นๆ และทำไมพวกมันจึงไม่เหมือนบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 3: Bitcoin",
     "slideCount": 2,
     "classPath": "units/other-crypto-and-why-not-bitcoin/class.html",
-    "guidePath": "units/other-crypto-and-why-not-bitcoin/guide.html"
+    "guidePath": "units/other-crypto-and-why-not-bitcoin/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "bitcoin-network-and-node",
     "sequence": 23,
     "title": "เครือข่ายบิตคอยน์และ node",
-    "durationMinutes": 15,
+    "durationMinutes": 12,
     "chapter": "Chapter 4: Bitcoin System Structure",
     "slideCount": 4,
     "classPath": "units/bitcoin-network-and-node/class.html",
-    "guidePath": "units/bitcoin-network-and-node/guide.html"
+    "guidePath": "units/bitcoin-network-and-node/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "blocks-mining-and-proof-of-work",
@@ -237,276 +341,400 @@
     "chapter": "Chapter 4: Bitcoin System Structure",
     "slideCount": 5,
     "classPath": "units/blocks-mining-and-proof-of-work/class.html",
-    "guidePath": "units/blocks-mining-and-proof-of-work/guide.html"
+    "guidePath": "units/blocks-mining-and-proof-of-work/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "developer-node-runner-miner-user",
     "sequence": 25,
     "title": "developer, node runner, miner, user",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 4: Bitcoin System Structure",
     "slideCount": 2,
     "classPath": "units/developer-node-runner-miner-user/class.html",
-    "guidePath": "units/developer-node-runner-miner-user/guide.html"
+    "guidePath": "units/developer-node-runner-miner-user/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "paths-to-get-bitcoin",
     "sequence": 26,
     "title": "ช่องทางการได้มาของบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 3,
     "chapter": "Chapter 5: Becoming a Bitcoin Owner",
     "slideCount": 1,
     "classPath": "units/paths-to-get-bitcoin/class.html",
-    "guidePath": "units/paths-to-get-bitcoin/guide.html"
+    "guidePath": "units/paths-to-get-bitcoin/guide.html",
+    "slideDurations": [
+      3
+    ]
   },
   {
     "unitId": "buying-bitcoin-on-exchange",
     "sequence": 27,
     "title": "การซื้อบิตคอยน์จาก exchange",
-    "durationMinutes": 15,
+    "durationMinutes": 12,
     "chapter": "Chapter 5: Becoming a Bitcoin Owner",
     "slideCount": 4,
     "classPath": "units/buying-bitcoin-on-exchange/class.html",
-    "guidePath": "units/buying-bitcoin-on-exchange/guide.html"
+    "guidePath": "units/buying-bitcoin-on-exchange/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "buying-bitcoin-outside-exchange",
     "sequence": 28,
     "title": "การซื้อบิตคอยน์นอก exchange",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 5: Becoming a Bitcoin Owner",
     "slideCount": 2,
     "classPath": "units/buying-bitcoin-outside-exchange/class.html",
-    "guidePath": "units/buying-bitcoin-outside-exchange/guide.html"
+    "guidePath": "units/buying-bitcoin-outside-exchange/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "getting-bitcoin-from-mining",
     "sequence": 29,
     "title": "การได้บิตคอยน์จากการขุด",
-    "durationMinutes": 15,
+    "durationMinutes": 3,
     "chapter": "Chapter 5: Becoming a Bitcoin Owner",
     "slideCount": 1,
     "classPath": "units/getting-bitcoin-from-mining/class.html",
-    "guidePath": "units/getting-bitcoin-from-mining/guide.html"
+    "guidePath": "units/getting-bitcoin-from-mining/guide.html",
+    "slideDurations": [
+      3
+    ]
   },
   {
     "unitId": "earning-bitcoin-as-income",
     "sequence": 30,
     "title": "การรับบิตคอยน์เป็นรายได้",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 5: Becoming a Bitcoin Owner",
     "slideCount": 2,
     "classPath": "units/earning-bitcoin-as-income/class.html",
-    "guidePath": "units/earning-bitcoin-as-income/guide.html"
+    "guidePath": "units/earning-bitcoin-as-income/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "exchange-is-not-ownership",
     "sequence": 31,
     "title": "ทำไมเงินใน exchange ไม่ใช่การเป็นเจ้าของจริง",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/exchange-is-not-ownership/class.html",
-    "guidePath": "units/exchange-is-not-ownership/guide.html"
+    "guidePath": "units/exchange-is-not-ownership/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "technical-ownership",
     "sequence": 32,
     "title": "การเป็นเจ้าของบิตคอยน์ในเชิงเทคนิค",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/technical-ownership/class.html",
-    "guidePath": "units/technical-ownership/guide.html"
+    "guidePath": "units/technical-ownership/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "hd-wallet-seed-and-address",
     "sequence": 33,
     "title": "HD wallet, seed phrase และ address",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/hd-wallet-seed-and-address/class.html",
-    "guidePath": "units/hd-wallet-seed-and-address/guide.html"
+    "guidePath": "units/hd-wallet-seed-and-address/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "hardware-wallet",
     "sequence": 34,
     "title": "hardware wallet",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/hardware-wallet/class.html",
-    "guidePath": "units/hardware-wallet/guide.html"
+    "guidePath": "units/hardware-wallet/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "receiving-bitcoin",
     "sequence": 35,
     "title": "การรับบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/receiving-bitcoin/class.html",
-    "guidePath": "units/receiving-bitcoin/guide.html"
+    "guidePath": "units/receiving-bitcoin/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "sending-bitcoin",
     "sequence": 36,
     "title": "การส่งบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/sending-bitcoin/class.html",
-    "guidePath": "units/sending-bitcoin/guide.html"
+    "guidePath": "units/sending-bitcoin/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "seed-storage-and-basic-security",
     "sequence": 37,
     "title": "การเก็บรักษา seed และความปลอดภัยพื้นฐาน",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/seed-storage-and-basic-security/class.html",
-    "guidePath": "units/seed-storage-and-basic-security/guide.html"
+    "guidePath": "units/seed-storage-and-basic-security/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "theft-examples-and-prevention",
     "sequence": 38,
     "title": "ตัวอย่างการขโมยบิตคอยน์และวิธีป้องกัน",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 6: Using Bitcoin Safely",
     "slideCount": 2,
     "classPath": "units/theft-examples-and-prevention/class.html",
-    "guidePath": "units/theft-examples-and-prevention/guide.html"
+    "guidePath": "units/theft-examples-and-prevention/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "layer-1-development-path",
     "sequence": 39,
     "title": "แนวทางการพัฒนาบน layer 1",
-    "durationMinutes": 15,
+    "durationMinutes": 21,
     "chapter": "Chapter 7: Technology and Development",
     "slideCount": 7,
     "classPath": "units/layer-1-development-path/class.html",
-    "guidePath": "units/layer-1-development-path/guide.html"
+    "guidePath": "units/layer-1-development-path/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "layer-2-and-scalability",
     "sequence": 40,
     "title": "layer 2 และ scalability",
-    "durationMinutes": 15,
+    "durationMinutes": 9,
     "chapter": "Chapter 7: Technology and Development",
     "slideCount": 3,
     "classPath": "units/layer-2-and-scalability/class.html",
-    "guidePath": "units/layer-2-and-scalability/guide.html"
+    "guidePath": "units/layer-2-and-scalability/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "lightning-network",
     "sequence": 41,
     "title": "Lightning Network",
-    "durationMinutes": 15,
+    "durationMinutes": 12,
     "chapter": "Chapter 7: Technology and Development",
     "slideCount": 4,
     "classPath": "units/lightning-network/class.html",
-    "guidePath": "units/lightning-network/guide.html"
+    "guidePath": "units/lightning-network/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "government-views",
     "sequence": 42,
     "title": "มุมมองของรัฐบาลต่อบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 9,
     "chapter": "Chapter 8: Adoption and Future Role",
     "slideCount": 3,
     "classPath": "units/government-views/class.html",
-    "guidePath": "units/government-views/guide.html"
+    "guidePath": "units/government-views/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "traditional-finance-views",
     "sequence": 43,
     "title": "มุมมองของภาคการเงินดั้งเดิม",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 8: Adoption and Future Role",
     "slideCount": 2,
     "classPath": "units/traditional-finance-views/class.html",
-    "guidePath": "units/traditional-finance-views/guide.html"
+    "guidePath": "units/traditional-finance-views/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "bitcoin-etf",
     "sequence": 44,
     "title": "Bitcoin ETF",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 8: Adoption and Future Role",
     "slideCount": 2,
     "classPath": "units/bitcoin-etf/class.html",
-    "guidePath": "units/bitcoin-etf/guide.html"
+    "guidePath": "units/bitcoin-etf/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "bitcoin-treasury-company",
     "sequence": 45,
     "title": "Bitcoin Treasury Company",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 8: Adoption and Future Role",
     "slideCount": 2,
     "classPath": "units/bitcoin-treasury-company/class.html",
-    "guidePath": "units/bitcoin-treasury-company/guide.html"
+    "guidePath": "units/bitcoin-treasury-company/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "bitcoin-price-models",
     "sequence": 46,
     "title": "โมเดลทำนายราคาบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 8: Adoption and Future Role",
     "slideCount": 2,
     "classPath": "units/bitcoin-price-models/class.html",
-    "guidePath": "units/bitcoin-price-models/guide.html"
+    "guidePath": "units/bitcoin-price-models/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "famous-predictions",
     "sequence": 47,
     "title": "คำทำนายของคนดัง",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 8: Adoption and Future Role",
     "slideCount": 2,
     "classPath": "units/famous-predictions/class.html",
-    "guidePath": "units/famous-predictions/guide.html"
+    "guidePath": "units/famous-predictions/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "chapter-close",
     "sequence": 48,
     "title": "สรุปปิดท้ายบท",
-    "durationMinutes": 15,
+    "durationMinutes": 3,
     "chapter": "Chapter 8: Adoption and Future Role",
     "slideCount": 1,
     "classPath": "units/chapter-close/class.html",
-    "guidePath": "units/chapter-close/guide.html"
+    "guidePath": "units/chapter-close/guide.html",
+    "slideDurations": [
+      3
+    ]
   },
   {
     "unitId": "thai-policy-stance",
     "sequence": 49,
     "title": "ท่าทีของประเทศไทยต่อบิตคอยน์",
-    "durationMinutes": 15,
+    "durationMinutes": 9,
     "chapter": "Chapter 9: Bitcoin in Thailand",
     "slideCount": 3,
     "classPath": "units/thai-policy-stance/class.html",
-    "guidePath": "units/thai-policy-stance/guide.html"
+    "guidePath": "units/thai-policy-stance/guide.html",
+    "slideDurations": [
+      3,
+      3,
+      3
+    ]
   },
   {
     "unitId": "thai-regulation-and-rules",
     "sequence": 50,
     "title": "กฎหมายและข้อกำหนดที่เกี่ยวข้องในไทย",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 9: Bitcoin in Thailand",
     "slideCount": 2,
     "classPath": "units/thai-regulation-and-rules/class.html",
-    "guidePath": "units/thai-regulation-and-rules/guide.html"
+    "guidePath": "units/thai-regulation-and-rules/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   },
   {
     "unitId": "merchant-adoption-thailand",
     "sequence": 51,
     "title": "การยอมรับของร้านค้าในไทย",
-    "durationMinutes": 15,
+    "durationMinutes": 6,
     "chapter": "Chapter 9: Bitcoin in Thailand",
     "slideCount": 2,
     "classPath": "units/merchant-adoption-thailand/class.html",
-    "guidePath": "units/merchant-adoption-thailand/guide.html"
+    "guidePath": "units/merchant-adoption-thailand/guide.html",
+    "slideDurations": [
+      3,
+      3
+    ]
   }
 ]

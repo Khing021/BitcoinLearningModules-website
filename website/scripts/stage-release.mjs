@@ -1,12 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { syncDurations } from './sync-durations.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Arguments: releaseId (default: 'v1.0.0')
 const releaseId = process.argv[2] || process.env.VITE_RELEASE_ID || 'v1.0.0';
+
+// Always sync durations from guide decks and baseline before staging
+syncDurations(releaseId);
 
 const workspaceRoot = path.resolve(__dirname, '../..');
 const sourceReleaseDir = path.join(workspaceRoot, 'delivery', 'releases', releaseId);

@@ -9,6 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "stage:release": "node scripts/stage-release.mjs",
+    "sync:durations": "node scripts/sync-durations.mjs",
     "test": "vitest",
     "test:e2e": "playwright test"
   },

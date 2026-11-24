@@ -3,5 +3,6 @@
   "releaseId": "v1.0.0",
   "locale": "th",
   "licenseStatus": "pending-legal-review",
-  "catalogHash": "f1afd0681bcbcc2ffbb6eb5b71594ca54f106b9873863ce7e4ce890f0c5afe85"
+  "catalogHash": "f1afd0681bcbcc2ffbb6eb5b71594ca54f106b9873863ce7e4ce890f0c5afe85",
+  "defaultSlideDurationMinutes": 3
 }
