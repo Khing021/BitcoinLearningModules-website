@@ -141,6 +141,10 @@ export default function Builder({ release }: { release: Release }) {
     .filter(u => selectedUnits.includes(u.unitId))
     .reduce((sum, u) => sum + u.durationMinutes, 0);
 
+  const totalSlides = release.units
+    .filter(u => selectedUnits.includes(u.unitId))
+    .reduce((sum, u) => sum + (u.slideCount || 1), 0);
+
   // Group by chapter (fallback to "บทเรียนทั้งหมด" if undefined)
   const groupedUnits = release.units.reduce((acc, unit) => {
     const chapter = (unit as any).chapter || 'บทเรียนทั้งหมด';
@@ -288,7 +292,7 @@ export default function Builder({ release }: { release: Release }) {
           <div className="summary">
             <h3>{selectedUnits.length > 0 ? 'ชุดที่เลือก' : 'ยังไม่ได้เลือก'}</h3>
             <p>
-              <span>{selectedUnits.length} ยูนิต • {formatDuration(totalMinutes)}</span>
+              <span>{selectedUnits.length} ยูนิต • {totalSlides} สไลด์ • {formatDuration(totalMinutes)}</span>
               <span className="info-tooltip-wrapper">
                 <button 
                   type="button" 
