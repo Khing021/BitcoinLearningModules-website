@@ -5,6 +5,9 @@ export type Unit = {
   durationMinutes: number;
   classPath: string;
   guidePath: string;
+  slideCount?: number;
+  slideDurations?: number[];
+  chapter?: string;
 };
 
 export type Track = {
@@ -22,6 +25,7 @@ export type ReleaseInfo = {
   locale: string;
   licenseStatus: string;
   catalogHash: string;
+  defaultSlideDurationMinutes?: number;
 };
 
 export type Release = {
