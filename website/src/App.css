@@ -98,6 +98,98 @@
   margin: 0;
   font-size: 0.9rem;
   color: #666;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Tooltip for duration estimation explanation */
+.info-tooltip-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.info-tooltip-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  color: #888;
+  border-radius: 50%;
+  transition: color 0.15s, transform 0.15s;
+}
+
+.info-tooltip-trigger:hover,
+.info-tooltip-trigger:focus-visible {
+  color: #FA5D32;
+  transform: scale(1.15);
+  outline: none;
+}
+
+.info-tooltip-bubble {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-4px);
+  width: 280px;
+  max-width: calc(100vw - 32px);
+  background: #1e1e1e;
+  color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  z-index: 100;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+
+/* Tooltip caret arrow */
+.info-tooltip-bubble::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #1e1e1e transparent;
+}
+
+.info-tooltip-wrapper:hover .info-tooltip-bubble,
+.info-tooltip-trigger:focus .info-tooltip-bubble,
+.info-tooltip-trigger:focus-visible .info-tooltip-bubble {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+@media (max-width: 768px) {
+  .info-tooltip-bubble {
+    left: auto;
+    right: -20px;
+    transform: translateY(-4px);
+  }
+  .info-tooltip-bubble::before {
+    left: auto;
+    right: 24px;
+    transform: none;
+  }
+  .info-tooltip-wrapper:hover .info-tooltip-bubble,
+  .info-tooltip-trigger:focus .info-tooltip-bubble {
+    transform: translateY(0);
+  }
 }
 
 .actions {

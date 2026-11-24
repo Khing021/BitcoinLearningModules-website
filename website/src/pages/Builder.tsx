@@ -287,7 +287,25 @@ export default function Builder({ release }: { release: Release }) {
         <header className="builder-main-header">
           <div className="summary">
             <h3>{selectedUnits.length > 0 ? 'ชุดที่เลือก' : 'ยังไม่ได้เลือก'}</h3>
-            <p>{selectedUnits.length} ยูนิต • {formatDuration(totalMinutes)}</p>
+            <p>
+              <span>{selectedUnits.length} ยูนิต • {formatDuration(totalMinutes)}</span>
+              <span className="info-tooltip-wrapper">
+                <button 
+                  type="button" 
+                  className="info-tooltip-trigger" 
+                  aria-label="คำอธิบายเวลาที่แสดง"
+                >
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                </button>
+                <span className="info-tooltip-bubble" role="tooltip">
+                  เวลาที่แสดงเป็นเพียงการประมาณ ผู้สอนแต่ละคนอาจใช้เวลาไม่เท่ากัน ส่วนใหญ่ถูกกำหนดไว้ที่ 3 นาทีต่อสไลด์ ดูเวลาที่แนะนำของแต่ละสไลด์ได้ในคู่มือครู
+                </span>
+              </span>
+            </p>
           </div>
           <div className="actions">
             {/* Mobile Trigger for Unit Drawer */}
