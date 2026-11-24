@@ -937,6 +937,12 @@ body.guide-deck-preview[data-theme="chapter-9"] {
       gap: 18px;
       overflow: hidden;
     }
+    .guide-chip-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      align-self: flex-start;
+    }
     .slide-chip {
       align-self: flex-start;
       padding: 8px 14px;
@@ -947,6 +953,25 @@ body.guide-deck-preview[data-theme="chapter-9"] {
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--accent, #a66434);
+    }
+    .duration-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--line-strong, rgba(132, 101, 73, 0.18));
+      background: rgba(255,255,255,0.7);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--accent, #a66434);
+    }
+    .duration-chip-icon {
+      width: 14px;
+      height: 14px;
+      stroke: currentColor;
+      flex-shrink: 0;
     }
     .thumb-frame,
     .side-card,

@@ -34,7 +34,8 @@ export async function composeDeck(
   
   let headHtml = combinedHtml;
   const playerModeClass = isPlayerMode ? ' is-player-mode' : '';
-  headHtml += `</head>\n<body class="${kind}-deck-preview${playerModeClass}" data-theme="${themeKey}">\n<div class="shell">\n`;
+  const defaultDuration = release.info.defaultSlideDurationMinutes || 3;
+  headHtml += `</head>\n<body class="${kind}-deck-preview${playerModeClass}" data-theme="${themeKey}" data-default-duration="${defaultDuration}">\n<div class="shell">\n`;
   
   // Inject script to forward wheel and keydown events for Google Slides like UI
   headHtml += `

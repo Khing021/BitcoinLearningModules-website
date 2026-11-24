@@ -76,4 +76,57 @@ describe('syncDurations', () => {
     expect(result.totalCurriculumSlides).toBe(5);
     expect(result.overriddenSlidesCount).toBe(2);
   });
+
+  it('class.js correctly renders duration chips with clock icon and mm:ss formatting', () => {
+    // Setup DOM
+    document.body.innerHTML = `
+      <body data-default-duration="3">
+        <div class="shell">
+          <section class="slide" id="s1">
+            <div class="guide-left">
+              <div class="slide-chip">Slide 1</div>
+            </div>
+          </section>
+          <section class="slide" id="s2" data-duration="2.5">
+            <div class="guide-left">
+              <div class="slide-chip">Slide 2</div>
+            </div>
+          </section>
+          <section class="slide" id="s3" data-duration="0.5">
+            <div class="guide-left">
+              <div class="slide-chip">Slide 3</div>
+            </div>
+          </section>
+        </div>
+      </body>
+    `;
+
+    // Load and evaluate class.js in this DOM context
+    const classJsPath = path.resolve(__dirname, '../../delivery/releases/v1.0.0/runtime/class.js');
+    const classJsCode = fs.readFileSync(classJsPath, 'utf8');
+    eval(classJsCode);
+
+    const s1Duration = document.querySelector('#s1 .duration-chip');
+    const s2Duration = document.querySelector('#s2 .duration-chip');
+    const s3Duration = document.querySelector('#s3 .duration-chip');
+
+    expect(s1Duration).not.toBeNull();
+    expect(s1Duration?.textContent).toContain('3:00');
+    expect(s1Duration?.querySelector('svg.duration-chip-icon')).not.toBeNull();
+
+    // Check 2.5 minutes formats to 2:30, not 2:50!
+    expect(s2Duration).not.toBeNull();
+    expect(s2Duration?.textContent).toContain('2:30');
+    expect(s2Duration?.querySelector('svg.duration-chip-icon')).not.toBeNull();
+
+    // Check 0.5 minutes formats to 0:30
+    expect(s3Duration).not.toBeNull();
+    expect(s3Duration?.textContent).toContain('0:30');
+
+    // Check that slide-chip and duration-chip are side by side in guide-chip-row
+    const s1Row = document.querySelector('#s1 .guide-chip-row');
+    expect(s1Row).not.toBeNull();
+    expect(s1Row?.children[0].className).toContain('slide-chip');
+    expect(s1Row?.children[1].className).toContain('duration-chip');
+  });
 });
