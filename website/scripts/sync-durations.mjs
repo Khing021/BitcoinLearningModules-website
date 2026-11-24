@@ -38,9 +38,20 @@ export function syncDurations(releaseId = 'v1.0.0', customWorkspaceRoot = null) 
 
     const htmlContent = fs.readFileSync(htmlPath, 'utf8');
 
+    // Ensure guide.html slides have data-theme attribute matching their chapter
+    const chapterMatch = (unit.chapter || '').match(/Chapter\s*(\d+)/i);
+    const chapterTheme = chapterMatch ? `chapter-${chapterMatch[1]}` : 'chapter-1';
+    let updatedHtml = htmlContent;
+    if (!htmlContent.includes(`data-theme=`)) {
+      updatedHtml = htmlContent.replace(/(<section\b(?=[^>]*\bclass=["'][^"']*\bslide\b[^"']*["']))(?![^>]*\bdata-theme=)/gi, `$1 data-theme="${chapterTheme}"`);
+      if (updatedHtml !== htmlContent) {
+        fs.writeFileSync(htmlPath, updatedHtml, 'utf8');
+      }
+    }
+
     // Match all <section ... class="...slide..."> openings
     const slideTagRegex = /<section\b(?=[^>]*\bclass=["'][^"']*\bslide\b[^"']*["'])[^>]*>/gi;
-    const slideTags = htmlContent.match(slideTagRegex) || [];
+    const slideTags = updatedHtml.match(slideTagRegex) || [];
 
     const slideCount = slideTags.length || unit.slideCount || 1;
     const slideDurations = [];

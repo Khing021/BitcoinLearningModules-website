@@ -30,7 +30,8 @@ export async function composeDeck(
   }
   
   const firstUnit = release.units.find(u => u.unitId === unitIds[0]);
-  const themeKey = (firstUnit as any)?.themeKey || 'chapter-1';
+  const chapterMatch = (firstUnit as any)?.chapter?.match(/Chapter\s*(\d+)/i);
+  const themeKey = chapterMatch ? `chapter-${chapterMatch[1]}` : ((firstUnit as any)?.themeKey || 'chapter-1');
   
   let headHtml = combinedHtml;
   const playerModeClass = isPlayerMode ? ' is-player-mode' : '';
