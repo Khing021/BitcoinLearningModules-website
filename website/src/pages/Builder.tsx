@@ -1,11 +1,12 @@
-import { useState, useEffect, useRef } from 'react';
-import type { Release } from '../lib/contracts';
+import { useState, useEffect, useRef, useMemo } from 'react';
+import type { Release, Unit } from '../lib/contracts';
 import { composeDeck } from '../lib/composer';
 import type { ComposedDeck } from '../lib/composer';
 import { createOfflineZip, triggerDownload } from '../lib/zip';
 import { downloadSelectionJson, parseSelectionFile } from '../lib/selection';
 import { parseQuery } from '../lib/query';
 import { Link, useLocation } from 'react-router-dom';
+import { OutcomeBreakdown } from '../components/OutcomeBreakdown';
 
 export default function Builder({ release }: { release: Release }) {
   const location = useLocation();
@@ -144,6 +145,12 @@ export default function Builder({ release }: { release: Release }) {
   const totalSlides = release.units
     .filter(u => selectedUnits.includes(u.unitId))
     .reduce((sum, u) => sum + (u.slideCount || 1), 0);
+
+  const selectedUnitObjects = useMemo(() => {
+    return selectedUnits
+      .map(id => release.units.find(u => u.unitId === id))
+      .filter((u): u is Unit => Boolean(u));
+  }, [release.units, selectedUnits]);
 
   // Group by chapter (fallback to "บทเรียนทั้งหมด" if undefined)
   const groupedUnits = release.units.reduce((acc, unit) => {
@@ -310,6 +317,12 @@ export default function Builder({ release }: { release: Release }) {
                 </span>
               </span>
             </p>
+            {selectedUnits.length > 0 && (
+              <OutcomeBreakdown 
+                selectedUnits={selectedUnitObjects} 
+                outcomes={release.info.expectedOutcomes} 
+              />
+            )}
           </div>
           <div className="actions">
             {/* Mobile Trigger for Unit Drawer */}

@@ -10,7 +10,10 @@
     "guidePath": "units/opening-chapter/guide.html",
     "slideDurations": [
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "what-is-money",
@@ -25,7 +28,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "before-money",
@@ -41,7 +47,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "good-money-properties",
@@ -55,7 +64,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "better-money-emerges",
@@ -70,7 +82,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "currency-emergence",
@@ -86,7 +101,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "bimetallic-standard",
@@ -100,7 +118,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-7",
@@ -114,7 +135,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-8",
@@ -130,7 +154,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-9",
@@ -144,7 +171,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "world-war-one-turning-point",
@@ -158,7 +188,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-11",
@@ -171,7 +204,10 @@
     "guidePath": "units/unit-11/guide.html",
     "slideDurations": [
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-12",
@@ -185,7 +221,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-13",
@@ -199,7 +238,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-14",
@@ -214,7 +256,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 3
+    }
   },
   {
     "unitId": "unit-15",
@@ -228,7 +273,11 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 2,
+      "EO2": 1
+    }
   },
   {
     "unitId": "unit-16",
@@ -242,7 +291,11 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 2,
+      "EO5": 1
+    }
   },
   {
     "unitId": "decentralized-digital-currency",
@@ -258,7 +311,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "pre-bitcoin-experiments",
@@ -273,7 +329,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "bitcoin",
@@ -287,7 +346,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "public-perception-of-bitcoin",
@@ -301,7 +363,11 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 1,
+      "EO2": 2
+    }
   },
   {
     "unitId": "other-crypto-and-why-not-bitcoin",
@@ -315,7 +381,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "bitcoin-network-and-node",
@@ -331,7 +400,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "blocks-mining-and-proof-of-work",
@@ -348,7 +420,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "developer-node-runner-miner-user",
@@ -362,7 +437,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "paths-to-get-bitcoin",
@@ -375,7 +453,10 @@
     "guidePath": "units/paths-to-get-bitcoin/guide.html",
     "slideDurations": [
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "buying-bitcoin-on-exchange",
@@ -391,7 +472,11 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 2,
+      "EO5": 1
+    }
   },
   {
     "unitId": "buying-bitcoin-outside-exchange",
@@ -405,7 +490,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "getting-bitcoin-from-mining",
@@ -418,7 +506,11 @@
     "guidePath": "units/getting-bitcoin-from-mining/guide.html",
     "slideDurations": [
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 1,
+      "EO3": 2
+    }
   },
   {
     "unitId": "earning-bitcoin-as-income",
@@ -432,7 +524,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "exchange-is-not-ownership",
@@ -446,7 +541,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "technical-ownership",
@@ -460,7 +558,11 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 1,
+      "EO3": 2
+    }
   },
   {
     "unitId": "hd-wallet-seed-and-address",
@@ -474,7 +576,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "hardware-wallet",
@@ -488,7 +593,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "receiving-bitcoin",
@@ -502,7 +610,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "sending-bitcoin",
@@ -516,7 +627,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "seed-storage-and-basic-security",
@@ -530,7 +644,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "theft-examples-and-prevention",
@@ -544,7 +661,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 3
+    }
   },
   {
     "unitId": "layer-1-development-path",
@@ -563,7 +683,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "layer-2-and-scalability",
@@ -578,7 +701,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 3
+    }
   },
   {
     "unitId": "lightning-network",
@@ -594,7 +720,11 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO2": 1,
+      "EO3": 2
+    }
   },
   {
     "unitId": "government-views",
@@ -609,7 +739,11 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 1,
+      "EO5": 2
+    }
   },
   {
     "unitId": "traditional-finance-views",
@@ -623,7 +757,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO4": 3
+    }
   },
   {
     "unitId": "bitcoin-etf",
@@ -637,7 +774,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO4": 3
+    }
   },
   {
     "unitId": "bitcoin-treasury-company",
@@ -651,7 +791,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO4": 3
+    }
   },
   {
     "unitId": "bitcoin-price-models",
@@ -665,7 +808,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO4": 3
+    }
   },
   {
     "unitId": "famous-predictions",
@@ -679,7 +825,11 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 1,
+      "EO4": 2
+    }
   },
   {
     "unitId": "chapter-close",
@@ -692,7 +842,11 @@
     "guidePath": "units/chapter-close/guide.html",
     "slideDurations": [
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO1": 1,
+      "EO4": 2
+    }
   },
   {
     "unitId": "thai-policy-stance",
@@ -707,7 +861,10 @@
       3,
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO5": 3
+    }
   },
   {
     "unitId": "thai-regulation-and-rules",
@@ -721,7 +878,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO5": 3
+    }
   },
   {
     "unitId": "merchant-adoption-thailand",
@@ -735,6 +895,10 @@
     "slideDurations": [
       3,
       3
-    ]
+    ],
+    "eoWeights": {
+      "EO3": 1,
+      "EO5": 2
+    }
   }
 ]
