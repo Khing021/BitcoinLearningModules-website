@@ -1,3 +1,12 @@
+export type ExpectedOutcome = {
+  id: string;
+  code: string;
+  title: string;
+  shortTitle: string;
+  description: string;
+  color: string;
+};
+
 export type Unit = {
   unitId: string;
   sequence: number;
@@ -8,6 +17,7 @@ export type Unit = {
   slideCount?: number;
   slideDurations?: number[];
   chapter?: string;
+  eoWeights?: Record<string, number>;
 };
 
 export type Track = {
@@ -26,6 +36,7 @@ export type ReleaseInfo = {
   licenseStatus: string;
   catalogHash: string;
   defaultSlideDurationMinutes?: number;
+  expectedOutcomes?: ExpectedOutcome[];
 };
 
 export type Release = {
