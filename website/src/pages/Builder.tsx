@@ -441,8 +441,8 @@ export default function Builder({ release }: { release: Release }) {
                   .filter(u => track.unitIds.includes(u.unitId))
                   .reduce((sum, u) => sum + u.durationMinutes, 0);
 
-                const audience = track.targetAudience || (track.trackId === 'beginner-intro' ? 'ผู้เริ่มต้น ผู้สนใจทั่วไป' : 'ผู้ต้องการเรียนรู้ครอบคลุมทุกมิติ');
-                const outcome = track.learningOutcome || (track.trackId === 'beginner-intro' ? 'เข้าใจวิวัฒนาการของเงินและคอนเซ็ปต์เบื้องต้นของบิตคอยน์' : 'เข้าใจประวัติศาสตร์ เทคนิค นวัตกรรม และมิติต่างๆ ของบิตคอยน์ครบวงจร');
+                const audience = track.targetAudience || 'ผู้ต้องการเรียนรู้ครอบคลุมทุกมิติ';
+                const outcome = track.learningOutcome || 'เข้าใจประวัติศาสตร์ เทคนิค นวัตกรรม และมิติต่างๆ ของบิตคอยน์ครบวงจร';
 
                 return (
                   <div key={track.trackId} className={`track-card ${isSelected ? 'active' : ''}`}>
