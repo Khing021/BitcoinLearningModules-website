@@ -669,8 +669,12 @@
    ========================================================================== */
 
 .eo-breakdown-container {
-  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 100%;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .eo-progress-bar {
@@ -686,7 +690,7 @@
 
 .eo-progress-bar:hover {
   opacity: 0.92;
-  transform: scaleY(1.2);
+  transform: scaleY(1.25);
 }
 
 .eo-progress-segment {
@@ -704,12 +708,13 @@
 
 .eo-legend-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 6px;
   font-size: 0.8rem;
+  cursor: pointer;
+  user-select: none;
 }
 
 .eo-legend-items {
@@ -749,26 +754,6 @@
 
 .eo-percent {
   color: var(--text-muted);
-}
-
-.eo-details-trigger-btn {
-  background: none;
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  padding: 3px 10px;
-  font-size: 0.78rem;
-  font-weight: 500;
-  color: var(--primary-color);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  transition: all 0.2s ease;
-}
-
-.eo-details-trigger-btn:hover {
-  background: rgba(134, 59, 255, 0.08);
-  border-color: var(--primary-color);
 }
 
 /* EO Modal Styles */

@@ -32,18 +32,26 @@ describe('OutcomeBreakdown Component', () => {
 
     expect(screen.getByText('EO 1')).toBeDefined();
     expect(screen.getByText('EO 2')).toBeDefined();
-    expect(screen.getByText('📊 รายละเอียด EO')).toBeDefined();
   });
 
-  it('opens modal with donut chart and table when clicking trigger button', () => {
+  it('opens modal with donut chart and table when clicking the progress bar', () => {
     render(<OutcomeBreakdown selectedUnits={sampleUnits} />);
 
-    const button = screen.getByRole('button', { name: /รายละเอียด EO/i });
-    fireEvent.click(button);
+    const bar = screen.getAllByRole('button')[0];
+    fireEvent.click(bar);
 
     expect(screen.getByText(/การกระจายน้ำหนักสมรรถนะ/i)).toBeDefined();
     expect(screen.getByText(/ตารางแจกแจงค่าน้ำหนักรายยูนิต/i)).toBeDefined();
     expect(screen.getByText('เงินคืออะไร')).toBeDefined();
     expect(screen.getByText('บิตคอยน์คืออะไร')).toBeDefined();
+  });
+
+  it('opens modal when clicking the legend row', () => {
+    render(<OutcomeBreakdown selectedUnits={sampleUnits} />);
+
+    const legend = screen.getAllByRole('button')[1];
+    fireEvent.click(legend);
+
+    expect(screen.getByText(/การกระจายน้ำหนักสมรรถนะ/i)).toBeDefined();
   });
 });

@@ -68,7 +68,14 @@ export const OutcomeBreakdown: React.FC<OutcomeBreakdownProps> = ({
       </div>
 
       {/* Legend Row */}
-      <div className="eo-legend-row">
+      <div 
+        className="eo-legend-row"
+        onClick={() => setIsModalOpen(true)}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setIsModalOpen(true); }}
+        title="คลิกเพื่อดูรายละเอียดและตารางสมรรถนะ (EO)"
+      >
         <div className="eo-legend-items">
           {summary.items.map((item) => (
             <div
@@ -84,14 +91,6 @@ export const OutcomeBreakdown: React.FC<OutcomeBreakdownProps> = ({
             </div>
           ))}
         </div>
-
-        <button
-          type="button"
-          className="eo-details-trigger-btn"
-          onClick={() => setIsModalOpen(true)}
-        >
-          📊 รายละเอียด EO
-        </button>
       </div>
 
       {/* Detailed Modal */}
