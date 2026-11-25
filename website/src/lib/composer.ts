@@ -115,8 +115,9 @@ export async function composeDeck(
     // can resolve them correctly (e.g. "assets/img.png" -> "units/<unitId>/assets/img.png")
     const rewrittenFragmentHtml = fragmentHtml.replace(/(src=["'])(assets\/[^"']+)(["'])/g, `$1${unitDir}/$2$3`);
 
-    // Split rewrittenFragmentHtml into slides by looking for <section class="slide
-    const parts = rewrittenFragmentHtml.split(/(?=<section class="slide)/g);
+    // Split rewrittenFragmentHtml into slides by looking for top-level <section ... class="...slide..."
+    // Supports class="slide...", data-theme="..." class="slide...", and other attribute orders
+    const parts = rewrittenFragmentHtml.split(/(?=<section\b(?=[^>]*\bclass\s*=\s*["'][^"']*(?<=["'\s])slide(?=[\s"']))[^>]*>)/gi);
     for (const part of parts) {
       if (part.trim().startsWith('<section')) {
         slides.push(part);
